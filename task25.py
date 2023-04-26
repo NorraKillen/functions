@@ -1,0 +1,1 @@
+is_num = lambda x: True if  x.replace('.', '' ,1).replace('-', '' ,1).isdigit() and '-' not in x[1:]  else False
